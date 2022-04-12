@@ -3,8 +3,8 @@ import "../App.css";
 
 export default function Footer() {
   return (
-    <footer class="text-center lg:text-left bg-blue text-gray-600">
-      <div class="mx-6 py-3.5 text-left md:text-left ">
+    <footer class="text-center lg:text-left text-gray-600">
+      <div class="py-3.5 text-left md:text-left ">
         <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-2 gap-50">
           <div class="">
             <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
@@ -12,12 +12,22 @@ export default function Footer() {
             </h6>
             <p class="mb-4">
               <a href="#!" class="text-gray-600">
-                Measures
+                Home
               </a>
             </p>
             <p class="mb-4">
               <a href="#!" class="text-gray-600">
-                Graphical Datas
+                Preventions
+              </a>
+            </p>
+            <p class="mb-4">
+              <a href="#!" class="text-gray-600">
+                Sources
+              </a>
+            </p>
+            <p class="mb-4">
+              <a href="#!" class="text-gray-600">
+                Team
               </a>
             </p>
           </div>
