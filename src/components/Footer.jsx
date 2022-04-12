@@ -6,7 +6,7 @@ export default function Footer() {
     <footer class="text-center lg:text-left bg-blue text-gray-600">
   
   <div class="mx-6 py-10 text-left md:text-left ">
-    <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-2 gap-50 flex justify-center ">
+    <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-2 gap-50">
       
       
       <div class="">
