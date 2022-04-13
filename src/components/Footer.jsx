@@ -3,7 +3,10 @@ import "../App.css";
 
 export default function Footer() {
   return (
+    <>
+    
     <footer class="text-center lg:text-left text-gray-600">
+      <hr></hr>
       <div class="py-3.5 text-left md:text-left ">
         <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-2 gap-50">
           <div class="">
@@ -11,17 +14,17 @@ export default function Footer() {
               Useful links
             </h6>
             <p class="mb-4">
-              <a href="#!" class="text-gray-600">
+              <a href="/" class="text-gray-600">
                 Home
               </a>
             </p>
             <p class="mb-4">
-              <a href="#!" class="text-gray-600">
+              <a href="/preventionpage" class="text-gray-600">
                 Preventions
               </a>
             </p>
             <p class="mb-4">
-              <a href="#!" class="text-gray-600">
+              <a href="/sources" class="text-gray-600">
                 Sources
               </a>
             </p>
@@ -58,5 +61,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </>
   );
 }
