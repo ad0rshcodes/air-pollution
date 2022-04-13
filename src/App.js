@@ -3,23 +3,28 @@ import "./index.css";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import LandingPage from "./components/LandingPage";
-import Co2Graph from "./components/Co2Graph";
-import Form from "./components/Form";
+
+import HomePage from "./components/HomePage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PreventionPage from "./components/PreventionPage";
+import Sources from "./components/Sources";
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/PreventionPage" element={<PreventionPage />}></Route>
-      </Routes>
       <div className="main App flex flex-col h-screen justify-between px-8">
-        <Navbar />
-        <LandingPage />
-        <Co2Graph />
-        <Form />
-        <Footer />
+      <Navbar />
+      <Routes>
+        <Route path="/preventionpage" element={<PreventionPage />}></Route>
+      </Routes>
+      <Routes>
+      <Route path="/" element={<HomePage/>}></Route>
+      </Routes>
+      <Routes>
+        <Route path="/sources" element={<Sources/>}></Route>
+      </Routes>
+      
+        
+      <Footer />
       </div>
     </Router>
   );
