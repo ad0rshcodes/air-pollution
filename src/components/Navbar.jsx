@@ -6,13 +6,13 @@ export default function Navbar() {
       <div class="flex justify-between my-3 text-lg	">
         <div className="logo flex">Logo</div>
         <div className="links flex space-x-4">
-          <a href="./" class="">
+          <a href="/" class="">
             Home
           </a>
-          <a href="./" class="">
+          <a href="/preventionpage" class="">
             Prevention
           </a>
-          <a href="./" class="">
+          <a href="/sources" class="">
             Sources
           </a>
         </div>
