@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <>
-      <div class="flex justify-between my-3">
+      <div class="flex justify-between my-3 text-lg	">
         <div className="logo flex">Logo</div>
         <div className="links flex space-x-4">
           <a href="./" class="">
