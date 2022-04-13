@@ -16,29 +16,28 @@ body {
 .red {
   color: rgb(222, 60, 60);
 }
-.yellow{
-  color:yellow;
+.yellow {
+  color: yellow;
 }
-.prev-head{
+.prev-head {
   padding-bottom: 100px;
-  
 }
-.sub{
+.sub {
   font-size: 30px;
   color: red;
   padding-top: 30px;
   padding-bottom: 20px;
 }
-.prev-body{
-  font-size:18px;
+.prev-body {
+  font-size: 18px;
 }
 
-.list{
+.list {
   padding-top: 20px;
 }
 .pie {
   margin: auto;
-  width: 80%;
+  width: 55%;
   padding: 3%;
   border-radius: 1.5px;
 }

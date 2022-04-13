@@ -4,20 +4,24 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import LandingPage from "./components/LandingPage";
-// import BarChart from "./components/BarChart";
-// import PieChart from "./components/PieChart";
 import Co2Graph from "./components/Co2Graph";
-
+import Form from "./components/Form";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import PreventionPage from "./components/PreventionPage";
 function App() {
   return (
-    <div className="main App flex flex-col h-screen justify-between px-8">
-      <Navbar />
-      <LandingPage />
-      {/* <BarChart chartData={userData} /> */}
-      <Co2Graph />
-      {/* <PieChart chartData={userData} /> */}
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/PreventionPage" element={<PreventionPage />}></Route>
+      </Routes>
+      <div className="main App flex flex-col h-screen justify-between px-8">
+        <Navbar />
+        <LandingPage />
+        <Co2Graph />
+        <Form />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

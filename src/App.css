@@ -1,0 +1,36 @@
+/* Lead Magnet CSS */
+.leadMagnet-text {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.leadmagnet-submit-button {
+  border-radius: 1.5rem;
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+  padding: 6px;
+  font-size: 17px;
+}
+
+@media (max-width: 973px) {
+  .leadMagnet {
+    flex-direction: column;
+  }
+  .leadMagnet-text {
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 596px) {
+  .leadMagnet-form {
+    flex-direction: column;
+  }
+}
+
+.green {
+  color: #3bcd3b;
+}
+
+.red {
+  color: rgb(222, 60, 60);
+}
