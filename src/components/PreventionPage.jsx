@@ -33,7 +33,7 @@ export default function PreventivePage(){
     <div className="flex items-center">
       <div className="landingPageText mx-6">
         <div className="slogan font-bold text-4xl my-2">
-          <div className="text-6xl yellow prev-head">"Preventions"</div>
+          <div className="text-6xl yellow prev-head">Preventions</div>
           The Following Measures are effective for the Respiratory Diseases:
         </div>
         <div >
