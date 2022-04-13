@@ -2,17 +2,15 @@ import React from "react";
 
 export default function LandingPage() {
   return (
-    <div className="flex items-center">
-      <div className="landingPageText mx-6">
+    <div className="flex items-center justify-around">
+      <div className="landingPageText mx-6 ">
         <div className="slogan font-bold text-4xl my-2">
-          <div className="text-6xl green">Go Green,</div>
-          There is no Planet B!!
+          Be a part of the
+          <span className="text-6xl green"> solution, </span>
+          not part of the
+          <span className="text-6xl red"> Problem </span>
         </div>
-        <div className="description my-2">
-          Air pollution is an issue that has been plaguing the world for a long
-          time now and its detrimental effects urge us to find ways to predict
-          and prevent further damage. According to WHO....
-        </div>
+        <div className="description my-2">Description</div>
       </div>
 
       <img

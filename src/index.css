@@ -12,3 +12,7 @@ body {
 .green {
   color: #3bcd3b;
 }
+
+.red {
+  color: rgb(222, 60, 60);
+}
