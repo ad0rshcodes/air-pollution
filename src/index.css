@@ -76,13 +76,13 @@ body {
 }
 .src-h1 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 40px;
-  padding-top: 90px;
+  padding-top: 200px;
   color: rgb(203, 224, 82);
 }
 .src-ui {
-  text-align: center;
+  text-align:start;
   font-size: 18px;
 }
 .nf-head {
