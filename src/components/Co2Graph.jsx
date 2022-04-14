@@ -27,20 +27,30 @@ export default function Co2Graph() {
   //return component
   return (
     <>
-      <div className="l-cont-c ">
+      <div className="l-cont-c mt-14">
         <div className="l-cont-g">
           <LineChart chartData={userData} />
         </div>
-        <div className='l-cont-p'>
-        Air pollution is an issue that has been plaguing the world for a long
-          time now and its detrimental effects urge us to find ways to predict
-          and prevent further damage. According to WHO, ambient air pollution
-          accounts for an estimated 4.2 million deaths per year due to stroke,
-          heart disease, lung cancer, and chronic respiratory diseases. Such
-          statistical data can prove to be of great significance in the process
+        <div className="l-cont-p text-lg">
+          Carbon dioxide pollution, better known as CO2 emissions, primarily
+          comes from the
+          <span className="red font-semibold"> burning of fossil fuels. </span>
+          Two great examples of this are the consumption of gasoline in
+          gas-powered vehicles and the production of electricity by power
+          plants. Researchers estimate that nearly
+          <span className="red font-semibold"> 30%</span> of greenhouse gas
+          emissions come from transportation, while another
+          <span className="red font-semibold"> 25%</span> comes from the
+          production of electricity,
+          <span className="red font-semibold"> 23% </span> from industrial
+          production, <span className="red font-semibold"> 13% </span>from
+          commercial and residential sources and
+          <span className="red font-semibold"> 10% </span> from agriculture.
+          Carbon dioxide accounts for approximately
+          <span className="red font-semibold"> three-quarters </span>of global
+          greenhouse gas emissions.
         </div>
       </div>
     </>
   );
 }
-
