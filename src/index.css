@@ -142,6 +142,7 @@ body {
 .lp-l{
   width: 60px;
   height: 60px;
+  margin-left: 10px;
 }
 .bt1:hover{
   color: yellow;

@@ -5,8 +5,8 @@ import React from "react";
 export default function Navbar() {
   return (
     <>
-      <div className="flex justify-between  text-xl	fixed top-0 left-2 right-12 bg-blue ">
-        <div className="lp-l logo flex my-4 mx-4">
+      <div className="flex justify-between  text-xl	fixed top-0 left-2 right-0 bg-blue ">
+        <div className="lp-l logo flex my-4 ">
           <a href="/"><img src={require("../images/final.png")} alt="" /></a>
           </div>
         <div className="links flex m-4 space-x-4">
