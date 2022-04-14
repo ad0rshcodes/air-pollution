@@ -84,3 +84,18 @@ body {
   text-align: center;
   font-size: 18px;
 }
+.nf-head{
+  color:rgb(221, 221, 59);
+  font-size: 40px;
+}
+.nf-err{
+  color:rgb(245, 73, 73);
+  font-size: 100px;
+}
+.nf-sub{
+  text-align: center;
+  font-size: 30px;
+}
+.nf-a{
+  color: rgb(221, 221, 59);
+}
