@@ -1,5 +1,7 @@
+//imports
 import React from "react";
-// Created by Adarsh Sharma
+
+//Navbar element function
 export default function Navbar() {
   return (
     <>

@@ -1,5 +1,7 @@
+//imports
 import React from "react";
 
+//Form element function
 export default function Form() {
   return (
     <div>

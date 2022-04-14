@@ -1,6 +1,8 @@
+//imports
 import React from "react";
 import "../App.css";
 
+//Footer Element Function
 export default function Footer() {
   return (
     <>
@@ -40,7 +42,7 @@ export default function Footer() {
             </h6>
 
             <p class="flex items-center justify-center md:justify-end mb-4">
-              <svg
+              <svg /* Svg for mail logo */
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fas"

@@ -1,15 +1,18 @@
+//imports
 import React from "react";
 import "./index.css";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
 import HomePage from "./components/HomePage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PreventionPage from "./components/PreventionPage";
 import Sources from "./components/Sources";
+
+//main function app
 function App() {
   return (
+    //routing logics
     <Router>
       <div className="main App flex flex-col h-screen justify-between px-8">
       <Navbar />

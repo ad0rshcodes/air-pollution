@@ -1,8 +1,11 @@
+//imports
 import React, { useState } from "react";
 import { UserData } from "../Data";
 import LineChart from "./LineChart";
 
+//Co2 Graph Element
 export default function Co2Graph() {
+  //graph datasets
   const [userData, setUserData] = useState({
     labels: UserData.map((data) => data.year),
     datasets: [
@@ -21,6 +24,7 @@ export default function Co2Graph() {
       },
     ],
   });
+  //return component
   return (
     <>
       <div className="l-cont-c ">

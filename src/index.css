@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*index styling*/
 body {
   color: white;
   background-color: #121a32;

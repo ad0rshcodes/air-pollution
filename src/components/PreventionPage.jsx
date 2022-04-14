@@ -1,6 +1,7 @@
-
+//imports
 import PieChart from "./PieChart";
 
+//declaring dataset for piechart
 const data = {
     labels: [
       'No Smoking',
@@ -27,7 +28,7 @@ const data = {
     }]
   };
 
-
+//PreventivePage element function
 export default function PreventivePage(){
   return (
     <div className="flex items-center">
@@ -36,7 +37,7 @@ export default function PreventivePage(){
           <div className="text-6xl yellow prev-head">Preventions</div>
           The Following Measures are effective for the Respiratory Diseases:
         </div>
-        <div >
+        <div > {/* Measures */}
             <h2 className="sub">
               1) Don't Smoke
             </h2>
@@ -89,7 +90,7 @@ export default function PreventivePage(){
             Whether you are young or old, slender or large, able-bodied or living with a chronic illness or disability, being physically active can help keep your lungs healthy.
             </b>
 
-        </div>
+        </div> {/* PieChart */}
         <div className="pie">
             <PieChart chartData={data}/>
         </div>

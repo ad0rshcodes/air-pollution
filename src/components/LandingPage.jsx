@@ -1,5 +1,7 @@
+//imports
 import React from "react";
 
+//LandingPage Element function
 export default function LandingPage() {
   return (
     <div className="flex items-center justify-around">
