@@ -8,12 +8,13 @@ import Predictions from "./Predictions";
 
 //HomePage element function
 export default function HomePage() {
-  const [active, setActive] = useState("Hide"); 
-  
+  const [active, setActive] = useState("Hide");
+
   return (
     <>
-    
+      {/* Problem Introduction */}
       <LandingPage />
+
       {/* CO2 level graph from year 2007 to 2021*/}
       <Co2Graph />
       {/* Predictions */}
@@ -22,20 +23,26 @@ export default function HomePage() {
           Wanna know how many people will be effected by Air Pollution?
         </div>
       </div>
+      {/* Show and Hide Buttons */}
       <div className="button">
-      <button className="bt1 bg-green text-white font-bold py-5 px-10  rounded-2xl" onClick={()=> setActive("Show") }>
+        <button
+          className="bt1 bg-green text-white font-bold py-5 px-10  rounded-2xl"
+          onClick={() => setActive("Show")}
+        >
           Show
-      </button>  
+        </button>
       </div>
       <div className="button">
-      <button className="bt2 bg-red text-white font-bold py-5 px-10  rounded-2xl" onClick={()=> setActive("Hide") }>
+        <button
+          className="bt2 bg-red text-white font-bold py-5 px-10 rounded-2xl"
+          onClick={() => setActive("Hide")}
+        >
           Hide
-      </button>
-
+        </button>
       </div>
       <div>
-      {active === "Show" && <Predictions /> }
-      {active === "Hide" && <></>}
+        {active === "Show" && <Predictions />}
+        {active === "Hide" && <></>}
       </div>
     </>
   );

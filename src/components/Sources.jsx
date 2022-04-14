@@ -5,7 +5,7 @@ export default function Sources() {
       <div className="src-h1">Data Sources:</div>
       <ui className="src-ui">
         <li>
-          <a href="https://www.wikipedia.org" target="_blank">
+          <a href="https://en.wikipedia.org/wiki/Air_pollution" target="_blank">
             wikipedia.org
           </a>
         </li>

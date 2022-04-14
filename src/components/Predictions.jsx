@@ -4,8 +4,13 @@ import BarChart from "./BarChart";
 import HomePage from "./HomePage";
 //Predictions for year 2007 to 2030.
 export default function Predictions() {
-  let years = [];
-  let predictions = [];
+  let years = []; //Years Array
+  let predictions = []; // predictions corresponding to each year
+
+  /*
+  Logic for prediction
+  The graph is exppected to be a straight line. Therefore, Y = mX + c, m: slope & c: y-intercept
+  */
 
   for (let i = 2007; i <= 2030; i++) {
     years.push(i);
@@ -44,6 +49,7 @@ export default function Predictions() {
             with year.
           </div>
           <div className="initialTable flex justify-center my-5">
+            {/* Given data of 3 years */}
             <table className="table-fixed text-lg">
               <thead>
                 <tr className="yellow">
@@ -136,7 +142,7 @@ export default function Predictions() {
               <thead>
                 <tr className="yellow">
                   <th className="px-5">Years</th>
-                  <th className="px-5">% of people effected (Globally)</th>
+                  <th className="px-5">% of people affected (Globally)</th>
                 </tr>
               </thead>
               <tbody className="text-center">

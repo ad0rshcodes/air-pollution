@@ -3,6 +3,7 @@ import React from "react";
 
 //LandingPage Element function
 export default function LandingPage() {
+  // Problem Introduction Starts
   return (
     <div className="flex items-center justify-around landing ">
       <div className="landingPageText mx-6 ">
@@ -13,7 +14,7 @@ export default function LandingPage() {
           <span className="text-6xl red"> Problem </span>
         </div>
         <div className="description my-2 text-lg">
-          Air pollution kills an estimated{" "}
+          Air pollution kills an estimated {/* Air pollution description */}
           <span className="red font-semibold"> 7 million </span>people worldwide
           every year. WHO data shows that almost all of the global population
           (99%) breathe air that exceeds WHO guideline limits containing high

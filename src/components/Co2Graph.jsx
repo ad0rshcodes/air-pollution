@@ -29,8 +29,10 @@ export default function Co2Graph() {
     <>
       <div className="l-cont-c mt-14">
         <div className="l-cont-g graphs">
+          {/* Line Chart imported form ./LineChart */}
           <LineChart chartData={userData} />
         </div>
+        {/* CO2 Description */}
         <div className="l-cont-p text-lg">
           Carbon dioxide pollution, better known as CO2 emissions, primarily
           comes from the
