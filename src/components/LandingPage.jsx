@@ -4,9 +4,9 @@ import React from "react";
 //LandingPage Element function
 export default function LandingPage() {
   return (
-    <div className="flex items-center justify-around landing">
+    <div className="flex items-center justify-around landing ">
       <div className="landingPageText mx-6 ">
-        <div className="slogan font-bold text-4xl my-2">
+        <div className="slogan font-bold text-4xl my-20">
           Be a part of the
           <span className="text-6xl green"> solution, </span>
           not part of the

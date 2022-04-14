@@ -23,9 +23,13 @@ export default function HomePage() {
         </div>
       </div>
       <div className="button">
-        
-      <button className="bg-red hover:bg-green text-white font-bold py-5 px-10  rounded-2xl" onClick={()=> setActive("Show") }>
-          Yes
+      <button className="bt1 bg-green text-white font-bold py-5 px-10  rounded-2xl" onClick={()=> setActive("Show") }>
+          Show
+      </button>  
+      </div>
+      <div className="button">
+      <button className="bt2 bg-red text-white font-bold py-5 px-10  rounded-2xl" onClick={()=> setActive("Hide") }>
+          Hide
       </button>
 
       </div>
