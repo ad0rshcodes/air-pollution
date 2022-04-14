@@ -83,51 +83,51 @@ export default function Predictions() {
             <tbody className="text-center">
               <tr>
                 <td>{years[0]}</td>
-                <td>10.4</td>
+                <td>{predictions[0].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[1]}</td>
-                <td>11.06</td>
+                <td>{predictions[1].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[2]}</td>
-                <td>11.73</td>
+                <td>{predictions[2].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[3]}</td>
-                <td>12.4</td>
+                <td>{predictions[3].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[4]}</td>
-                <td>13.06</td>
+                <td>{predictions[4].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[5]}</td>
-                <td>13.73</td>
+                <td>{predictions[5].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[6]}</td>
-                <td>14.4</td>
+                <td>{predictions[6].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[7]}</td>
-                <td>15.06</td>
+                <td>{predictions[7].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[8]}</td>
-                <td>15.73</td>
+                <td>{predictions[8].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[9]}</td>
-                <td>16.4</td>
+                <td>{predictions[9].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[10]}</td>
-                <td>17.06</td>
+                <td>{predictions[10].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[11]}</td>
-                <td>17.73</td>
+                <td>{predictions[11].toFixed(2)}</td>
               </tr>
             </tbody>
           </table>
@@ -144,51 +144,51 @@ export default function Predictions() {
             <tbody className="text-center">
               <tr>
                 <td>{years[12]}</td>
-                <td>18.4</td>
+                <td>{predictions[12].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[13]}</td>
-                <td>19.06</td>
+                <td>{predictions[13].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[14]}</td>
-                <td>19.73</td>
+                <td>{predictions[14].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[15]}</td>
-                <td>20.4</td>
+                <td>{predictions[15].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[16]}</td>
-                <td>21.06</td>
+                <td>{predictions[16].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[17]}</td>
-                <td>21.73</td>
+                <td>{predictions[17].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[18]}</td>
-                <td>22.4</td>
+                <td>{predictions[18].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[19]}</td>
-                <td>23.06</td>
+                <td>{predictions[19].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[20]}</td>
-                <td>23.73</td>
+                <td>{predictions[20].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[21]}</td>
-                <td>24.4</td>
+                <td>{predictions[21].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[22]}</td>
-                <td>25.06</td>
+                <td>{predictions[22].toFixed(2)}</td>
               </tr>
               <tr>
                 <td>{years[23]}</td>
-                <td>25.73</td>
+                <td>{predictions[23].toFixed(2)}</td>
               </tr>
             </tbody>
           </table>
