@@ -28,7 +28,7 @@ export default function Co2Graph() {
   return (
     <>
       <div className="l-cont-c mt-14">
-        <div className="l-cont-g">
+        <div className="l-cont-g graphs">
           <LineChart chartData={userData} />
         </div>
         <div className="l-cont-p text-lg">

@@ -28,7 +28,7 @@ export default function LandingPage() {
           stroke, heart disease, chronic obstructive pulmonary disease, lung
           cancer and acute respiratory infections.
           {/* Air Pollution facts */}
-          <ul class="list-disc mt-4 list-inside">
+          <ul className="list-disc mt-4 list-inside">
             <li>
               <span className="red font-semibold">3.8 millions </span>deaths
               every year as a result of household exposure to smoke.

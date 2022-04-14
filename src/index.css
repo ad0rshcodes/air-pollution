@@ -28,14 +28,13 @@ body {
 }
 .prev-head {
   display: flex;
-  margin:auto;
+  margin: auto;
   padding-top: 70px;
   padding-bottom: 30px;
   justify-content: center;
 }
 .slogan-pp {
   text-align: center;
-  
 }
 .sub {
   font-size: 45px;
@@ -110,12 +109,17 @@ body {
     width: 70%;
   }
 }
-.prev-image{
-  width:1000px;
-  height:auto;
-  margin:auto;
+@media screen and (max-width: 600px) {
+  .graphs {
+    width: 100%;
+  }
+}
+.prev-image {
+  width: 1000px;
+  height: auto;
+  margin: auto;
   padding-bottom: 30px;
 }
-.pp{
+.pp {
   flex-wrap: wrap;
 }
