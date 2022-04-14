@@ -18,16 +18,13 @@ function App() {
       <div className="main App flex flex-col h-screen justify-between px-8">
       <Navbar />
       <Routes>
-        <Route exact path="/preventionpage" element={<PreventionPage />}></Route>
-      </Routes>
-      <Routes>
+      <Route exact path="/preventionpage" element={<PreventionPage />}></Route>
+      
       <Route exact path="/" element={<HomePage/>}></Route>
-      </Routes>
-      <Routes>
-        <Route exact path="/sources" element={<Sources/>}></Route>
-      </Routes>
-      <Routes>
-        <Route path="*" element = {<NotFound/>} />
+      
+      <Route exact path="/sources" element={<Sources/>}></Route>
+      
+      <Route path="*" element = {<NotFound/>} />
       </Routes>
         
       <Footer />
