@@ -1,17 +1,19 @@
 //imports
 import React, { useState } from "react";
 import BarChart from "./BarChart";
-
+import HomePage from "./HomePage";
 //Predictions for year 2007 to 2030.
 export default function Predictions() {
   let years = [];
   let predictions = [];
-
+  
   for (let i = 2007; i <= 2030; i++) {
     years.push(i);
     let pred = (2 / 3) * (i - 2016) + 16.4;
     predictions.push(pred);
   }
+  
+  
   console.log(years);
   console.log(predictions);
   //graph datasets
@@ -34,11 +36,10 @@ export default function Predictions() {
     ],
   });
   return (
-    <div>
+    <>
+    <div >
       <div className="leadMagnet my-14 sm:px-2">
-        <div className="leadMagnet-text mb-4">
-          Wanna know how many people will be effected by Air Pollution?
-        </div>
+      
         <div className="text-lg">
           Based on the dataset given in the problem statement, we can deduce
           that the no of people affected by air pollution is growing linearly
@@ -196,5 +197,6 @@ export default function Predictions() {
         </div>
       </div>
     </div>
+    </>
   );
 }

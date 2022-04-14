@@ -123,3 +123,13 @@ body {
 .pp {
   flex-wrap: wrap;
 }
+.button{
+  color:black;
+  margin: auto;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.hp-t{
+  text-align: center;
+
+}
