@@ -44,7 +44,7 @@ body {
   text-align: center;
 }
 .prev-body {
-  font-size: 25px;
+  font-size: 1.125rem;
   padding-bottom: 100px;
 }
 
@@ -132,4 +132,8 @@ body {
 .hp-t{
   text-align: center;
 
+}
+.padd{
+  padding-top: 70px;
+  padding-bottom: 20px;
 }
