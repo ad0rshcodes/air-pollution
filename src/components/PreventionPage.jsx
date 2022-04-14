@@ -31,7 +31,7 @@ const data = {
 //PreventivePage element function
 export default function PreventivePage(){
   return (
-    <div className="flex items-center">
+    <div className="pp flex items-center justify-around landing">
       <div className="landingPageText mx-6">
         <div className="slogan-pp font-bold text-4xl my-2">
           <div className="text-6xl yellow prev-head">Preventions</div>
@@ -41,7 +41,7 @@ export default function PreventivePage(){
             <h2 className="sub ">
               1) <span className="text-red">Don't</span> Smoke
             </h2>
-            <img className="prev-image " src={require("../images/smoke.jpg")} alt="" />
+            <img className="landingImage prev-image " src={require("../images/smoke.jpg")} alt="" />
             <b className="prev-body">
             Cigarette smoking is the major cause of lung cancer and chronic obstructive pulmonary disease (COPD), which includes chronic bronchitis and emphysema. Cigarette smoke can narrow the air passages and make breathing more difficult. It causes chronic inflammation, or swelling in the lung, which can lead to chronic bronchitis. Over time cigarette smoke destroys lung tissue and may trigger changes that grow into cancer. According to the Surgeon General, quitting smoking is the single most important step a smoker can take to improve the length and quality of his or her life. As soon as you quit, your body begins to repair the damage caused by smoking. Of course, it's best to quit early in life, but even someone who quits later in life will improve their health.
             </b>
