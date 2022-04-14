@@ -6,10 +6,11 @@ export default function Sources(){
         Data Sources:
     </div>
     <ui className="src-ui">
-        <li><a href="www.wikipedia.org">wikipedia.org</a></li>
-        <li><a href="www.climate.nasa.gov">climate.nasa.gov</a></li>       
-        <li><a href="www.lung.org/lung-health-diseases">lung.org</a></li>
-            
+        <li><a href="https://www.wikipedia.org">wikipedia.org</a></li>
+        <li><a href="https://www.climate.nasa.gov">climate.nasa.gov</a></li>       
+        <li><a href="https://www.lung.org/lung-health-diseases">lung.org</a></li>
+        <li><a href="https://www.pexels.com" >pexels.com</a></li>
+        <li><a href="https://www.ncbi.nlm.nih.gov">www.ncbi.nlm.nih.gov</a></li>
     </ui>
 
     </>
